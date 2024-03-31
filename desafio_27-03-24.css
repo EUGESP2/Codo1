@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    
+    background-color: #fae20a;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom:  blue 1rem;
+  
+      
+    
+}
+/* estilo de fuente para la publicidad */
+
+
+.letrasHeader {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+  }
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.blinking {
+    animation: blink 3s linear infinite;
+}
+
+.menu {
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 1rem;
+}
+
+.menu li {
+    display: inline-block;
+    background-color: rgb(124, 124, 248);
+
+}
+
+.menu a {
+    background-color: rgb(249, 243, 243);
+    padding: .5rem 2rem;
+    text-decoration: none;
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: lightgray;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.texto {
+    text-align: justify;
+    padding: 1rem;
+    margin: 1rem 3rem;
+}
