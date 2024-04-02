@@ -1,74 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  color: #FFF;
+}
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
 }
-
 .header {
-    
-    background-color: #fae20a;
-    padding: 1rem;
-    text-align: center;
-    font-size: 1rem;
-    border-bottom:  blue 1rem;
-  
-      
-    
+  text-align: center;
+  width: 100%;
+  padding: 1em;
 }
-/* estilo de fuente para la publicidad */
-
-
-.letrasHeader {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 3rem;
-  }
-
-@keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
+.cont-title {
+  font-size: 2em;
+  transition: transform .8s ease-in-out;
 }
-
-.blinking {
-    animation: blink 3s linear infinite;
+.cont-title:hover {
+  transform: scale(1.1);
 }
-
-.menu {
-    text-align: center;
-    position: sticky;
-    top: 0px;
-    background-color: white;
-    padding: 1rem;
+.nav {
+  background-color: #333;
+  padding: .5em;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  margin: auto;
+  text-align: center;
+  margin: auto;
 }
-
-.menu li {
-    display: inline-block;
-    background-color: rgb(124, 124, 248);
-
+.nav ul {
+  display: flex;
+  justify-content: space-evenly;
 }
-
-.menu a {
-    background-color: rgb(249, 243, 243);
-    padding: .5rem 2rem;
-    text-decoration: none;
-    color: black;
-    border: 1px solid lightgray;
-    border-radius: 5px;
+.nav li {
+  background-color: #888;
+  padding: .5em;
+  border-radius: 10px;
+  transition: background-color .5s;
 }
-
-.menu a:hover {
-    background-color: lightgray;
+.nav li:hover {
+  background-color: black;
 }
-
-.titulo {
-    font-size: 1.5rem;
-    padding: 1rem;
-    margin: 1rem;
-    text-align: center;
+section {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: #555;
 }
-
-.texto {
-    text-align: justify;
-    padding: 1rem;
-    margin: 1rem 3rem;
+.presentacion p {
+  padding-top: .5em;
+}
+.lenguaje {
+  margin: 1em;
+  padding: 1em;
+  width: 150px;
 }
